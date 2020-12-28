@@ -15,6 +15,7 @@ O formulário precisa apenas de um textarea, um botão e um elemento de imagem.
 <button type="button">
    Gerar QR Code
 </button>
+<img id="imageQRCode" src="...">
 ```
 
 ## Gerador de QRCode com jQuery
