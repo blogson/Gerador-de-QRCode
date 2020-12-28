@@ -7,7 +7,7 @@ Você pode ver uma descrição detalhada de como utilizar este código em seus f
  [Como criar um gerador de QR Code com jQuery / JS, Muito Fácil](https://www.blogson.com.br/como-criar-um-gerador-de-qr-code-com-jquery-js-facil/)
 
 ## Exemplo de formulário
-O formulário precisa apenas de um textarea, um botão e um elemento <IMG>
+O formulário precisa apenas de um textarea, um botão e um elemento de imagmem.
 
 ```
 <textarea maxlength="256" rows="3" id="conteudoQRCode"></textarea>
