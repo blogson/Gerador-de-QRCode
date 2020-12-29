@@ -33,3 +33,13 @@ $('button').click(function()
 
 ## Gerador de QRCode com JavaScript
 Se você prefere manipular elementos da sua página com jQuery, pode usar este código;
+
+```
+function GeraQRCode()		
+{
+  var conteudo = document.getElementById('conteudoQRCode').value;
+  var GoogleCharts = 'https://chart.googleapis.com/chart?chs=500x500&cht=qr&chl=';
+  var imagemQRCode = GoogleCharts + conteudo;
+  document.getElementById('imageQRCode').src = imagemQRCode; 
+}
+```
